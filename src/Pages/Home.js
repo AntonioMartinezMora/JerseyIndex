@@ -3,10 +3,10 @@ import { useGlobalContext } from '../context';
 import Teams from '../Components/Teams';
 
 function Home() {
-  const {teams} = useGlobalContext()
+  const {shortTeams} = useGlobalContext()
 
   return<main>
-      <Teams teams={teams}/>
+      <Teams teams={shortTeams}/>
     </main>
   
 } 

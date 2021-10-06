@@ -14,11 +14,11 @@ function Team() {
               id,
               image,
               index,
-              // team,
+              team,
               short
             } = item
             const newJersey = {
-              id, image, index, short
+              id, image, index, team, short
             }
             // console.log(newJersey)
             return<Link
@@ -35,3 +35,5 @@ function Team() {
 } 
 
 export default Team;
+
+// display team NAME

@@ -4,13 +4,13 @@ import data from './data.json'
 const AppContext = React.createContext()
 
 // Filter and display short teams name
-const allTeams = [...new Set(data.map((item) => item.short))]
+const shortNames = [...new Set(data.map((item) => item.short))]
 
 const AppProvider = ({children}) =>{
-    const [teams, setTeams] = useState(allTeams)
+    const [shortTeams, setshortTeams] = useState(shortNames)
 
     return <AppContext.Provider value={{
-        teams
+        shortTeams
       }}>
           {children}
     </AppContext.Provider>
