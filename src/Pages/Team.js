@@ -1,6 +1,8 @@
 import {useEffect, useState} from 'react';
 import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
+import '../Style/App.css'; 
+import '../Style/Team.css'
 
 function Team() {
   const { team } = useParams()
@@ -15,17 +17,24 @@ function Team() {
               image,
               index,
               team,
-              short
+              short,
+              type,
+              year
             } = item
             const newJersey = {
-              id, image, index, team, short
+              id, image, index, team, short, type, year
             }
             // console.log(newJersey)
             return<Link
               to={`/jerseys/${id}`}
-              key={newJersey.index}
+              key={index}
             >
-              <h3>{newJersey.id}</h3>
+              <div className="jersey__info">
+                <img src={image} />
+                <div className="jerseys__info">
+                  <h3>{team} {year} {type} jersey</h3>
+                </div>
+              </div>
             </Link>
           }
         })}
