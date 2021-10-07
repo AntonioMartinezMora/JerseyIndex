@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import React from 'react';
 import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
@@ -6,7 +6,6 @@ import '../Style/Team.css'
 
 function Team() {
   const { team } = useParams()
-  const [items, setItems] = useState([])
 
   return(
     <div>
@@ -18,21 +17,21 @@ function Team() {
               index,
               team,
               short,
-              type,
+              edition,
               year
             } = item
             const newJersey = {
-              id, image, index, team, short, type, year
+              id, image, index, team, short, edition, year
             }
             // console.log(newJersey)
             return<Link
               to={`/jerseys/${id}`}
               key={index}
             >
-              <div className="jersey__info">
+              <div className="jersey__link--info">
                 <img src={image} />
                 <div className="jerseys__info">
-                  <h3>{team} {year} {type} jersey</h3>
+                  <h3>{team} {year} {edition} jersey</h3>
                 </div>
               </div>
             </Link>
@@ -45,4 +44,3 @@ function Team() {
 
 export default Team;
 
-// display team NAME

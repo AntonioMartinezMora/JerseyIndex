@@ -5,8 +5,12 @@
         "image": "https://media.publit.io/file/w_640/LAL/lakers_20-21-earned.jpg",
         "team": "los angeles lakers",
         "short": "lal",
-        "type": "earned",
-        "year": "2018-2019"
+        "edition": "earned",
+        "year": "2018-2019",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
     },
     {
         "id": "lakers-icon-18-present",
@@ -14,8 +18,12 @@
         "image": "https://media.publit.io/file/w_640/LAL/lakers_18-present-icon.jpg",
         "team": "los angeles lakers",
         "short": "lal",
-        "type": "icon",
-        "year": "2018-present"
+        "edition": "icon",
+        "year": "2018-present",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
     },
     {
         "id": "raptors-city-19-20",
@@ -23,8 +31,12 @@
         "image": "https://media.publit.io/file/w_640/TOR/raptors_19-20-city.jpg",
         "team": "toronto raptors",
         "short": "tor",
-        "type": "city",
-        "year": "2019-2020"
+        "edition": "city",
+        "year": "2019-2020",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
     },
     {
         "id": "raptors-earned-18-19",
@@ -32,7 +44,11 @@
         "image": "https://media.publit.io/file/w_640/TOR/raptors_18-19-earned.jpg",
         "team": "toronto raptors",
         "short": "tor",
-        "type": "earned",
-        "year": "2018-2019"
+        "edition": "earned",
+        "year": "2018-2019",
+        "favorite": "yes",
+        "brand": "nike",
+        "newest": null,
+        "link": null
     }
 ]
