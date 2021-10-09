@@ -6,14 +6,20 @@
     box-sizing: border-box;
 }
 
+:root{
+    --black: #242423;
+    --grey: #333533;
+    --blue: #345995;
+    --red: #ca1551;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
-    /* background-color: #f6f6f6; */
+    /* overflow-x: hidden; */
     font-weight: 400;
 }
 

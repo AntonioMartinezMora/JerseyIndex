@@ -1,0 +1,38 @@
+.navbar{
+    width: 100vw;
+    max-width: 1200px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar .logo{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.social .social__icon{
+    color: var(--blue);
+    font-size: 1.2rem;
+    margin: 0.4rem;
+}
+
+.menu{
+    display: none;
+}
+
+@media(max-width:550px){
+    .social{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .menu{
+        cursor: pointer;
+    }
+
+}

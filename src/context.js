@@ -6,11 +6,15 @@ const AppContext = React.createContext()
 // Filter and display short teams name
 const shortNames = [...new Set(data.map((item) => item.short))]
 
+
 const AppProvider = ({children}) =>{
     const [shortTeams, setshortTeams] = useState(shortNames)
+    const [openMenu, setOpenMenu] = useState(false)
 
     return <AppContext.Provider value={{
-        shortTeams
+        shortTeams,
+        openMenu,
+        setOpenMenu
       }}>
           {children}
     </AppContext.Provider>
