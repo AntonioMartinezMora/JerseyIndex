@@ -34,9 +34,9 @@ const Navbar = () => {
                 </div>
                 <div 
                     className="menu"
-                    onClick={() => setOpenMenu(!openMenu)}
+                    onClick={() => setOpenMenu(true)}
                 >
-                    {openMenu? <AiOutlineClose className="menu__icon"/> :<AiOutlineMenu className="menu__icon"/>}
+                    <AiOutlineMenu className="menu__icon"/>
                 </div>
             </div>
         </nav>

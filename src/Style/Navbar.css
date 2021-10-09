@@ -21,6 +21,7 @@
 
 .menu{
     display: none;
+    z-index: 99;
 }
 
 @media(max-width:550px){
@@ -29,6 +30,7 @@
     }
     .menu{
         display: flex;
+        z-index: 99;
     }
 
     .menu{

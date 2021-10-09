@@ -9,11 +9,13 @@ import About from './Pages/About';
 import Team from './Pages/Team';
 import Error from './Pages/Error';
 import Jersey from './Pages/Jersey';
+import Modal from './Components/Modal';
 
 function App() {
   return (
     <Router>
       <Navbar/>
+      <Modal />
       <Switch>
         <Route exact path="/">
           <Home/>
