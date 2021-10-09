@@ -1,0 +1,29 @@
+.page__menu{
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    max-width: 1200px;
+    margin: auto;
+    border-top: solid 3px var(--blue);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s linear;
+    z-index: 11;
+    height: 0;
+    overflow: hidden;
+    margin: 0 1rem;
+}
+
+.page__menu.open{
+    height: 30vh;
+    border-bottom: solid 3px var(--blue);
+}
+
+@media(max-width:550px){
+    .page__menu{
+        display: none;
+    }
+
+}

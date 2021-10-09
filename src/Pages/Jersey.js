@@ -2,7 +2,8 @@ import React from 'react';
 import {useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
-// import '../Style/Team.css'
+import PageMenu from '../Components/PageMenu';
+import MenuBtn from '../Components/MenuBtn';
 
 function Jersey() {
   const {id} = useParams()
@@ -10,6 +11,8 @@ function Jersey() {
 
   return(
     <div>
+    <PageMenu />
+    <MenuBtn />
     {data.map((item) =>{
       if(item.id === id){
         const {
