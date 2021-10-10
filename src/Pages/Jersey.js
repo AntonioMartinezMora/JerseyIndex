@@ -1,12 +1,19 @@
-import React from 'react';
+import {useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
 import PageMenu from '../Components/PageMenu';
 import MenuBtn from '../Components/MenuBtn';
+import { useGlobalContext } from '../context';
 
 function Jersey() {
   const {id} = useParams()
+  const {setOpenPageMenu} = useGlobalContext()
+
+  useEffect(() =>{
+    setOpenPageMenu(false)
+  },[])
+
   // console.log(id)
 
   return(

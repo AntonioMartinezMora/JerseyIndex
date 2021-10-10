@@ -9,7 +9,7 @@ function MenuBtn() {
         className="open__btn"
         onClick={() => setOpenPageMenu(!openPageMenu)}
     >
-        Open Menu
+        {openPageMenu ? "close menu":"open menu"}
     </button>
     
 } 

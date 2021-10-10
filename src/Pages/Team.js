@@ -1,13 +1,19 @@
-import React from 'react';
+import { useEffect} from 'react';
 import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
 import '../Style/Team.css'
 import PageMenu from '../Components/PageMenu';
 import MenuBtn from '../Components/MenuBtn';
+import { useGlobalContext } from '../context';
 
 function Team() {
   const { team } = useParams()
+  const {setOpenPageMenu} = useGlobalContext()
+
+  useEffect(() =>{
+    setOpenPageMenu(false)
+  },[])
 
   return(
     <div>
