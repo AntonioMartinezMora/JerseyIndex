@@ -1,12 +1,13 @@
 import React from 'react';
 import '../Style/PageMenu.css';
 import { useGlobalContext } from '../context';
+import Teams from './Teams';
 
 function PageMenu() {
-    const {openPageMenu, setOpenPageMenu} = useGlobalContext()
+    const {openPageMenu, shortTeams} = useGlobalContext()
 
     return<div className={openPageMenu ? "page__menu open":"page__menu"}>
-        <h2>PageMenu aqui no</h2>
+        <Teams teams={shortTeams}/>
     </div>
     
 } 

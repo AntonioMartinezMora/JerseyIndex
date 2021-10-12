@@ -15,7 +15,7 @@ const Navbar = () => {
                 to="/"
                 className="logo"
             >
-                JerseyChecklist
+                BB Jerseys
             </Link>
             <div className="nav__icons">
                 <div className="social">
