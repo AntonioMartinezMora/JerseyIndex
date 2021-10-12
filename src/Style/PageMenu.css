@@ -4,7 +4,7 @@
     width: 100vw;
     max-width: 1200px;
     margin: auto;
-    border-top: solid 3px var(--grey);
+    border-top: solid 3px var(--dark);
     background-color: white;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 
 .page__menu.open{
     height: 30vh;
-    border-bottom: solid 3px var(--grey);
+    border-bottom: solid 3px var(--dark);
 }
 
 @media(max-width:550px){

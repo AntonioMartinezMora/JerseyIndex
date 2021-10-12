@@ -2,13 +2,15 @@ import {useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
+import '../Style/Jersey.css'; 
+// import Teams from '../Components/Teams';
 import PageMenu from '../Components/PageMenu';
 import MenuBtn from '../Components/MenuBtn';
 import { useGlobalContext } from '../context';
 
 function Jersey() {
   const {id} = useParams()
-  const {setOpenPageMenu} = useGlobalContext()
+  const {setOpenPageMenu, shortTeams} = useGlobalContext()
 
   useEffect(() =>{
     setOpenPageMenu(false)
@@ -36,7 +38,7 @@ function Jersey() {
           id, image, index, team, edition, year, brand,link
         }
         // console.log(index)
-        return <div key={index}>
+        return <div key={index} className="jersey__container">
           <img src={image} />
           <div className="jersey__info">
             <h3>Team</h3> <small>{team}</small>
@@ -53,7 +55,7 @@ function Jersey() {
               </a>
             </button>
           </div>
-          
+            
         </div>
       }
     })}

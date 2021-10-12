@@ -10,11 +10,11 @@
 
 .navbar .logo{
     font-size: 2rem;
-    color: var(--grey);
+    color: var(--dark);
 }
 
 .social .social__icon{
-    color: var(--grey);
+    color: var(--dark);
     font-size: 1.2rem;
     margin: 0.4rem;
 }

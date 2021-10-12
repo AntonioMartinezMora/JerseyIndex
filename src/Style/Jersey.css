@@ -1,0 +1,47 @@
+.jersey__container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px red; */
+}
+
+.jersey__container img{
+    width: 50%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.jersey__container .jersey__info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.jersey__info h3{
+    color: var(--dark);
+    margin-top: 1rem;
+}
+
+.jersey__info small{
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.jersey__info button{
+    width: fit-content;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--black);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jersey__info button a{
+    color: white;
+}
