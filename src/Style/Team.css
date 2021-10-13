@@ -1,3 +1,60 @@
+.jerseys__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+.jersey__link--info,
+.jerseys__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jersey__link{
+    width: 20%;
+    min-width: 150px;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.4rem;
+}
+
+.jerseys__info h3{
+    font-size: 0.9rem;
+    max-width: 80%;
+    text-align: center;
+    color: var(--dark);
+    text-transform: capitalize;
+    margin: 0.5rem 0;
+}
+
 img{
     height: 200px;
+    padding-top: 1rem;
+    border-bottom: 4px solid var(--dark);
 }
+
+/* @media(max-width:550px){
+    .jerseys__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jersey__link{
+        width: 80%;
+        height: 50vh;
+    }
+
+    .jersey__link img{
+        height: 40vh;
+    }
+
+    .jersey__link h3{
+        font-size: 1.3rem;
+    }
+} */

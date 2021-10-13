@@ -19,7 +19,8 @@ function Team() {
     <div>
       <PageMenu />
       <MenuBtn />
-        {data.map((item) =>{
+      <div className="jerseys__container">
+      {data.map((item) =>{
           if(item.short === team){
             const {
               id,
@@ -37,6 +38,7 @@ function Team() {
             return<Link
               to={`/jerseys/${id}`}
               key={index}
+              className="jersey__link"
             >
               <div className="jersey__link--info">
                 <img src={image} />
@@ -47,6 +49,8 @@ function Team() {
             </Link>
           }
         })}
+      </div>
+        
     </div>
   )
   

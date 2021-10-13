@@ -10,6 +10,7 @@
     --black: #242423;
     --dark: #495057;
     --grey: #ced4da;
+    --light: #F8F9FA;
     --blue: #345995;
     --red: #ca1551;
 }
@@ -22,6 +23,7 @@ body{
     align-items: center;
     /* overflow-x: hidden; */
     font-weight: 400;
+    /* background-color: var(--light); */
 }
 
 li{
