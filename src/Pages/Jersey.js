@@ -41,10 +41,19 @@ function Jersey() {
         return <div key={index} className="jersey__container">
           <img src={image} />
           <div className="jersey__info">
-            <h3>Team</h3> <small>{team}</small>
-            <h3>Edition</h3> <small>{edition}</small>
-            <h3>Year</h3> <small>{year}</small>
-            <h3>Brand</h3> <small>{brand}</small>
+            <div className="info">
+              <h3>Team</h3> <small>{team}</small>
+            </div>
+            <div className="info">
+              <h3>Edition</h3> <small>{edition}</small>
+            </div>
+            <div className="info">
+              <h3>Year</h3> <small>{year}</small>
+            </div>
+            <div className="info">
+              <h3>Brand</h3> <small>{brand}</small>
+            </div>
+            
             <button>
               <a 
                 href={link}

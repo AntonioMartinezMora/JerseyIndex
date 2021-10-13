@@ -10,6 +10,7 @@
     width: 50%;
     height: 80%;
     object-fit: contain;
+    border: none;
 }
 
 .jersey__container .jersey__info{
@@ -44,4 +45,41 @@
 
 .jersey__info button a{
     color: white;
+}
+
+@media(max-width:550px){
+    .jersey__container{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 90vh;
+        border: solid 1px blueviolet;
+    }
+
+    .jersey__container img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .jersey__container .jersey__info{
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jersey__info .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    .info h3{
+        margin: 0;
+    }
+
+    .info small{
+        margin-left: 1rem;
+    }
 }
