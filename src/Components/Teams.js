@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import '../Style/Teams.css';
 import { Link } from 'react-router-dom';
 
 function Teams({teams}) {
