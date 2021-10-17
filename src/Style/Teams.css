@@ -1,0 +1,33 @@
+.team__name--btn{
+    margin: 1rem;
+    background-color: var(--black);
+    color: white;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.team__name--btn:before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 100%;
+    left: -6px;
+    top: 0;
+    background-color: var(--black);
+    transform: skew(22deg);
+    z-index: -11;
+}
+.team__name--btn:after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 100%;
+    right: -6px;
+    top: 0;
+    background-color: var(--black);
+    transform: skew(22deg);
+    z-index: -11;
+}

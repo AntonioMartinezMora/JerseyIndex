@@ -7,11 +7,12 @@ function Teams({teams}) {
 
     return(
         <div className="teams__btn--container">
-            {teams.map((team, index) =>{
+            {teams.sort().map((team, index) =>{
                 return(
                     <Link
                         to={`/teams/${team}`}
                         key={index}
+                        className="team__name--btn"
                     >
                         {team}
                     </Link>
