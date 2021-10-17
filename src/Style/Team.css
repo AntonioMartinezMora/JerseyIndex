@@ -1,11 +1,13 @@
 .jerseys__container{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100vw;
     max-width: 1000px;
     flex-wrap: wrap;
     margin: 1rem auto;
     padding: 0 1rem;
+    /* border: solid 1px blueviolet; */
 }
 
 .jersey__link--info,
@@ -22,6 +24,7 @@
     margin: 1rem;
     background-color: white;
     border-radius: 0.4rem;
+    /* border: solid 1px hotpink; */
 }
 
 .jerseys__info h3{
@@ -35,6 +38,7 @@
 
 img{
     height: 200px;
+    margin: 0 1rem;
     padding-top: 1rem;
     border-bottom: 4px solid var(--dark);
 }
