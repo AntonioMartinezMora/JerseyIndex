@@ -1,3 +1,9 @@
+.teams__btn--container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 1rem;
+}
+
 .team__name--btn{
     margin: 1rem;
     background-color: var(--black);
@@ -30,4 +36,16 @@
     background-color: var(--black);
     transform: skew(22deg);
     z-index: -11;
+}
+
+@media(max-width:700px){
+    .teams__btn--container{
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media(max-width:550px){
+    .teams__btn--container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
