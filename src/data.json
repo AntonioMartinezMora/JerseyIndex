@@ -4043,7 +4043,7 @@
         "link": null
     },
     {
-        "id": "phoenix-statement-19-20",
+        "id": "suns-statement-19-20",
         "index": 310,
         "image": "https://media.publit.io/file/w_640/PHO/suns_statement-19-20.jpg",
         "team": "phoenix suns",
@@ -4056,7 +4056,7 @@
         "link": null
     },
     {
-        "id": "phoenix-city-20-22",
+        "id": "suns-city-20-22",
         "index": 311,
         "image": "https://media.publit.io/file/w_640/PHO/suns_city-20-22.jpg",
         "team": "phoenix suns",
@@ -4069,7 +4069,7 @@
         "link": null
     },
     {
-        "id": "phoenix-classic-17-18",
+        "id": "suns-classic-17-18",
         "index": 312,
         "image": "https://media.publit.io/file/w_640/PHO/suns_classic-17-18.jpg",
         "team": "phoenix suns",
@@ -4082,7 +4082,7 @@
         "link": null
     },
     {
-        "id": "phoenix-statement-17-19",
+        "id": "suns-statement-17-19",
         "index": 313,
         "image": "https://media.publit.io/file/w_640/PHO/suns_statement-17-19.jpg",
         "team": "phoenix suns",
@@ -4095,7 +4095,7 @@
         "link": null
     },
     {
-        "id": "phoenix-icon-17-present",
+        "id": "suns-icon-17-present",
         "index": 314,
         "image": "https://media.publit.io/file/w_640/PHO/suns_icon-17-present.jpg",
         "team": "phoenix suns",
@@ -4108,7 +4108,7 @@
         "link": null
     },
     {
-        "id": "phoenix-city-19-20",
+        "id": "suns-city-19-20",
         "index": 315,
         "image": "https://media.publit.io/file/w_640/PHO/suns_city-19-20.jpg",
         "team": "phoenix suns",
@@ -4121,7 +4121,7 @@
         "link": null
     },
     {
-        "id": "phoenix-city-17-18",
+        "id": "suns-city-17-18",
         "index": 316,
         "image": "https://media.publit.io/file/w_640/PHO/suns_city-17-18.jpg",
         "team": "phoenix suns",
@@ -4134,7 +4134,7 @@
         "link": null
     },
     {
-        "id": "phoenix-association-17-present",
+        "id": "suns-association-17-present",
         "index": 317,
         "image": "https://media.publit.io/file/w_640/PHO/suns_association-17-present.jpg",
         "team": "phoenix suns",
@@ -4147,7 +4147,7 @@
         "link": null
     },
     {
-        "id": "phoenix-city-18-19",
+        "id": "suns-city-18-19",
         "index": 318,
         "image": "https://media.publit.io/file/w_640/PHO/suns_city-18-19.jpg",
         "team": "phoenix suns",
@@ -4160,7 +4160,7 @@
         "link": null
     },
     {
-        "id": "phoenix-statement-20-present",
+        "id": "suns-statement-20-present",
         "index": 319,
         "image": "https://media.publit.io/file/w_640/PHO/suns_statement-20-present.jpg",
         "team": "phoenix suns",
@@ -4169,6 +4169,162 @@
         "year": "2020-present",
         "favorite": null,
         "brand": "jordan",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-statement-17-19",
+        "index": 320,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_statement-17-19.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "statement",
+        "year": "2017-2019",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-icon-17-present",
+        "index": 321,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_icon-17-present.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "icon",
+        "year": "2017-present",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-classic-19-20",
+        "index": 322,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_classic-19-20.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "classic",
+        "year": "2019-2020",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-statement-20-present",
+        "index": 323,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_statement-20-present.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "statement",
+        "year": "2020-present",
+        "favorite": null,
+        "brand": "jordan",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-city-20-21",
+        "index": 324,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_city-20-21.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "city",
+        "year": "2020-2021",
+        "favorite": "yes",
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-city-18-19",
+        "index": 325,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_city-18-19.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "city",
+        "year": "2018-2019",
+        "favorite": "yes",
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-association-17-present",
+        "index": 326,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_association-17-present.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "association",
+        "year": "2017-present",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-city-17-18",
+        "index": 327,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_city-17-18.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "city",
+        "year": "2017-2018",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-statement-19-20",
+        "index": 328,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_statement-19-20.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "statement",
+        "year": "2019-2020",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-earned-18-19",
+        "index": 329,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_earned-18-19.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "earned",
+        "year": "2018-2019",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-city-19-20",
+        "index": 330,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_city-19-20.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "city",
+        "year": "2019-2020",
+        "favorite": null,
+        "brand": "nike",
+        "newest": null,
+        "link": null
+    },
+    {
+        "id": "blazers-earned-20-21",
+        "index": 331,
+        "image": "https://media.publit.io/file/w_640/POR/blazers_earned-20-21.jpg",
+        "team": "portland trail blazers",
+        "short": "por",
+        "edition": "earned",
+        "year": "2020-2021",
+        "favorite": null,
+        "brand": "nike",
         "newest": null,
         "link": null
     }
