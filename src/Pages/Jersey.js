@@ -37,7 +37,7 @@ function Jersey() {
         const newJersey = {
           id, image, index, team, edition, year, brand,link
         }
-        // console.log(index)
+        console.log(index)
         return <div key={index} className="jersey__container">
           <img src={image} />
           <div className="jersey__info">
