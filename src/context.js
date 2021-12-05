@@ -4,7 +4,11 @@ import data from './data.json'
 const AppContext = React.createContext()
 
 // Filter and display short teams name
-const shortNames = [...new Set(data.map((item) => item.short))]
+const shortNames = [...new Set(data.map((item) => {
+    if(item.short !== null){
+        return item.short
+    }
+} ))]
 
 
 const AppProvider = ({children}) =>{

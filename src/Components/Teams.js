@@ -8,6 +8,7 @@ function Teams({teams}) {
     return(
         <div className="teams__btn--container">
             {teams.sort().map((team, index) =>{
+                if(team !== undefined){
                 return(
                     <Link
                         to={`/teams/${team}`}
@@ -17,6 +18,7 @@ function Teams({teams}) {
                         {team}
                     </Link>
                 )
+                }
             })}
         </div>
     )
