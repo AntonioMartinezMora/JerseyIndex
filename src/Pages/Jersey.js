@@ -5,7 +5,6 @@ import '../Style/App.css';
 import '../Style/Jersey.css'; 
 // import Teams from '../Components/Teams';
 import PageMenu from '../Components/PageMenu';
-import MenuBtn from '../Components/MenuBtn';
 import { useGlobalContext } from '../context';
 
 function Jersey() {
@@ -21,7 +20,6 @@ function Jersey() {
   return(
     <div>
     <PageMenu />
-    <MenuBtn />
     {data.map((item) =>{
       if(item.id === id){
         const {

@@ -4,7 +4,6 @@ import data from '../data.json'
 import '../Style/App.css'; 
 import '../Style/Team.css'
 import PageMenu from '../Components/PageMenu';
-import MenuBtn from '../Components/MenuBtn';
 import { useGlobalContext } from '../context';
 
 function Team() {
@@ -18,7 +17,6 @@ function Team() {
   return(
     <div>
       <PageMenu />
-      <MenuBtn />
       <div className="jerseys__container">
       {data.map((item) =>{
           if(item.short === team){

@@ -7,7 +7,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 
 const Navbar = () => {
-    const {openMenu, setOpenMenu} = useGlobalContext()
+    const {openPageMenu, setOpenPageMenu} = useGlobalContext()
 
     return (
         <nav className="navbar">
@@ -18,23 +18,9 @@ const Navbar = () => {
                 BB Jerseys
             </Link>
             <div className="nav__icons">
-                <div className="social">
-                    <Link
-                        to="#"
-                        className="social__icon"
-                    >
-                        <FaTwitter  />
-                    </Link>
-                    <Link
-                        to="#"
-                        className="social__icon"
-                    >
-                        <FaInstagram  />
-                    </Link>
-                </div>
                 <div 
                     className="menu"
-                    onClick={() => setOpenMenu(true)}
+                    onClick={() => setOpenPageMenu(!openPageMenu)}
                 >
                     <AiOutlineMenu className="menu__icon"/>
                 </div>

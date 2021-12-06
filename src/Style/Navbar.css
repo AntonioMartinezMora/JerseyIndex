@@ -13,28 +13,13 @@
     color: var(--dark);
 }
 
-.social .social__icon{
-    color: var(--dark);
-    font-size: 1.2rem;
-    margin: 0.4rem;
-}
 
 .menu{
-    display: none;
+    display: flex;
     z-index: 99;
+    cursor: pointer;
 }
 
-@media(max-width:550px){
-    .social{
-        display: none;
-    }
-    .menu{
-        display: flex;
-        z-index: 99;
-    }
+/* @media(max-width:550px){
 
-    .menu{
-        cursor: pointer;
-    }
-
-}
+} */

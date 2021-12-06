@@ -16,13 +16,6 @@
 }
 
 .page__menu.open{
-    height: 30vh;
+    height: auto;
     border-bottom: solid 3px var(--dark);
-}
-
-@media(max-width:550px){
-    .page__menu{
-        display: none;
-    }
-
 }
