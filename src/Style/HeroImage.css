@@ -1,5 +1,50 @@
 .hero__img{
-    height: 30vh;
+    height: 50vh;
     width: 100vw;
-    background-color: cadetblue;
+    background: url("https://media.publit.io/file/w_1280/Resour/jerseys_background-v2-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__img,
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__content{
+    max-width: 650px;
+    text-align: center;
+}
+
+.hero__content h1,
+.hero__content p{
+    color: #ddd;
+    margin: 0.5rem;
+}
+
+.hero__content h1{
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+
+.hero__content .check__btn{
+    border: none;
+    outline: none;
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+@media(max-width:550px){
+    .hero__img{
+        height: 90vh;
+    }
 }
