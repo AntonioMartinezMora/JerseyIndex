@@ -41,6 +41,7 @@
     border-top: solid 3px var(--dark);
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 0;
@@ -55,6 +56,7 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     padding: 1rem;
+    
 }
 
 .team__short--btn{
@@ -74,6 +76,24 @@
     border-top-right-radius: 0.5rem;
 
 }
+
+.social__icons{
+    background: var(--black);
+    width: 100%;
+    /* height: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon{
+    color:var(--light);
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+
 
 @media(max-width:700px){
     .teams__short--container{

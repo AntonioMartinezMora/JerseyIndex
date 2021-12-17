@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 .jersey__page .popular__cont .jerseys__container{
@@ -16,15 +17,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 1px red; */
 }
 
 .jersey__container img{
     width: 50%;
     height: 80%;
-    object-fit: contain;
+    object-fit: cover;
     border: none;
-    border: solid 1px red;
 }
 
 .jersey__container .jersey__info{

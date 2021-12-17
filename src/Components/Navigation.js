@@ -51,6 +51,20 @@ const Navigation = () =>{
                     }
                 })}
             </div>
+            <div className="social__icons">
+                <Link
+                    to={"#"}
+                    className="social__icon"
+                >
+                    <FaTwitter/>
+                </Link>
+                <Link
+                    to={"#"}
+                    className="social__icon"
+                >
+                    <FaInstagram/>
+                </Link>
+            </div>
         </div>
     </div>
         
