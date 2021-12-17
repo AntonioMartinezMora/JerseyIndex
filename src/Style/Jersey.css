@@ -1,3 +1,16 @@
+.jersey__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jersey__page .popular__cont .jerseys__container{
+    height: 255px;
+    overflow: hidden;
+}
+
+
 .jersey__container{
     height: 60vh;
     display: flex;
@@ -11,6 +24,7 @@
     height: 80%;
     object-fit: contain;
     border: none;
+    border: solid 1px red;
 }
 
 .jersey__container .jersey__info{
@@ -52,7 +66,6 @@
         flex-direction: column;
         justify-content: flex-start;
         height: 90vh;
-        border: solid 1px blueviolet;
     }
 
     .jersey__container img{

@@ -1,9 +1,8 @@
-import { useEffect} from 'react';
+import React,{ useEffect} from 'react';
 import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
 import '../Style/Team.css'
-import PageMenu from '../Components/PageMenu';
 import { useGlobalContext } from '../context';
 
 function Team() {
@@ -14,9 +13,10 @@ function Team() {
     setOpenPageMenu(false)
   },[])
 
+  console.log('team page')
+
   return(
     <div>
-      <PageMenu />
       <div className="jerseys__container">
       {data.map((item) =>{
           if(item.short === team){
@@ -29,9 +29,9 @@ function Team() {
               edition,
               year
             } = item
-            const newJersey = {
-              id, image, index, team, short, edition, year
-            }
+            // const newJersey = {
+            //   id, image, index, team, short, edition, year
+            // }
             // console.log(newJersey)
             return<Link
               to={`/jerseys/${id}`}
@@ -54,5 +54,5 @@ function Team() {
   
 } 
 
-export default Team;
+export default React.memo(Team);
 

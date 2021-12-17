@@ -10,16 +10,12 @@ const shortNames = [...new Set(data.map((item) => {
     }
 } ))]
 
-
 const AppProvider = ({children}) =>{
     const [shortTeams, setshortTeams] = useState(shortNames)
-    const [openMenu, setOpenMenu] = useState(false)
     const [openPageMenu, setOpenPageMenu] = useState(false)
 
     return <AppContext.Provider value={{
         shortTeams,
-        openMenu,
-        setOpenMenu,
         openPageMenu,
         setOpenPageMenu
       }}>

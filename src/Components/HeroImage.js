@@ -13,7 +13,8 @@ function HeroImage() {
                 <p>Browse all the NBA jerseys for every team in the league since 2017 when Nike became the apparel provider for the NBA.</p>
                 <button 
                     className="check__btn"
-                    onClick={() => setOpenPageMenu(!openPageMenu)}
+                    // onClick={() => setOpenPageMenu(!openPageMenu)}
+                    onClick={()=> console.log('jeje')}
                 >
                     Check a team
                 </button>

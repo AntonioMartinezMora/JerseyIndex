@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './Style/App.css'; import './Style/App.css'; 
 // Import Components
-import Navbar from './Components/Navbar';
+import Navigation from './Components/Navigation';
 // Import Pages
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -13,7 +13,7 @@ import Jersey from './Pages/Jersey';
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Navigation/>
       <Switch>
         <Route exact path="/">
           <Home/>

@@ -3,8 +3,7 @@ import {useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
 import '../Style/Jersey.css'; 
-// import Teams from '../Components/Teams';
-import PageMenu from '../Components/PageMenu';
+import Popular from '../Components/Popular';
 import { useGlobalContext } from '../context';
 
 function Jersey() {
@@ -18,8 +17,7 @@ function Jersey() {
   // console.log(id)
 
   return(
-    <div>
-    <PageMenu />
+    <div className="jersey__page">
     {data.map((item) =>{
       if(item.id === id){
         const {
@@ -66,7 +64,8 @@ function Jersey() {
         </div>
       }
     })}
-</div>
+    <Popular />
+  </div>
   )
   
 } 
