@@ -1,12 +1,65 @@
+.team__page--cont{
+    margin-top: 11vh;
+    min-height: 80vh;
+}
+/* Filter Button */
+.filter{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem;
+}
+
+.filter input{
+    -webkit-appearance: none;
+    display: none;
+}
+
+.filter small{
+    font-size: 0.9rem;
+}
+
+.filter label{
+    margin: 0 10px;
+    height: 30px;
+    width: 60px;
+    border: solid 1px var(--black);
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.filter label .filtered{
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 86%;
+    width: 45%;
+    background-color: var(--black);
+    border-radius: 50%;
+    transition: all 0.3s ease-in;
+}
+
+/* toggle class for JS */
+.label.active .filtered{
+    left: 28px;
+    background-color: var(--red);
+}
+
+/* Jerseys Container */
 .jerseys__container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100vw;
     max-width: 1000px;
     flex-wrap: wrap;
-    margin: 10vh auto;
+    margin: auto;
     padding: 0 1rem;
-    /* border: solid 1px blueviolet; */
+}
+
+.jerseys__container.hide{
+    display: none;
 }
 
 .jersey__link--info,
