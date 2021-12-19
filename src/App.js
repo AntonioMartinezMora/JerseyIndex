@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Team from './Pages/Team';
 import Error from './Pages/Error';
 import Jersey from './Pages/Jersey';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Error />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

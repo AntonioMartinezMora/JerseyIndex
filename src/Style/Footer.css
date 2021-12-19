@@ -1,0 +1,39 @@
+footer{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer__info{
+    display: flex;
+}
+
+.footer__col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.footer__col a{
+    color: var(--black);
+    margin: 0.3rem;
+    font-size: 0.9rem;
+}
+
+
+@media(max-width:550px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__info{
+        margin-top: 1rem;
+    }
+}

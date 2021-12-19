@@ -5,6 +5,7 @@ import '../Style/App.css';
 import '../Style/Jersey.css'; 
 import Popular from '../Components/Popular';
 import { useGlobalContext } from '../context';
+import Footer from '../Components/Footer';
 
 function Jersey() {
   const {id} = useParams()

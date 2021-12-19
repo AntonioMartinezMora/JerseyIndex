@@ -5,6 +5,7 @@ import HeroImage from '../Components/HeroImage';
 import Popular from '../Components/Popular';
 // Style
 import '../Style/Home.css';
+import Footer from '../Components/Footer';
 
 function Home() {
   const {shortTeams} = useGlobalContext()
