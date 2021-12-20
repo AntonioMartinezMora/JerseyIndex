@@ -44,6 +44,7 @@ const Navigation = () =>{
                             to={`/teams/${team}`}
                             key={index}
                             className="team__short--btn"
+                            onClick={()=> setOpenMenu(false)}
                         >
                             {team}
                         </Link>
