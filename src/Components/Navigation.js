@@ -30,7 +30,12 @@ const Navigation = () =>{
                     className="menu"
                     onClick={() => setOpenMenu(!openMenu)}
                 >
-                    <AiOutlineMenu className="menu__icon"/>
+                    <AiOutlineMenu
+                        className={openMenu ? "menu__icon hide" : "menu__icon"}
+                    />
+                    <AiOutlineClose 
+                        className={openMenu ? "menu__icon" : "menu__icon hide"}
+                    />
                 </div>
             </div>
         </nav>
