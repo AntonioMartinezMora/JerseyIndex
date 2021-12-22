@@ -43,7 +43,7 @@
     font-size: 20px;
 }
 
-.jersey__info button{
+.jersey__info .find__btn{
     width: fit-content;
     margin-top: 1rem;
     border: none;
@@ -56,7 +56,11 @@
     cursor: pointer;
 }
 
-.jersey__info button a{
+.jersey__info .find__btn.hide{
+    display: none;
+}
+
+.jersey__info .find__btn a{
     color: white;
 }
 

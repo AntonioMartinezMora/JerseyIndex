@@ -51,11 +51,12 @@ function Jersey() {
               <h3>Brand</h3> <small>{brand}</small>
             </div>
             
-            <button>
+            <button 
+                className={link ? "find__btn" : "find__btn hide"}
+            >
               <a 
                 href={link}
                 target="_blank"
-                className="find__btn"
               >
                 Find this jersey
               </a>
