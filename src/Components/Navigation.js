@@ -11,7 +11,7 @@ const Navigation = () =>{
 
     // Filter and display short teams name
     const shortNames = [...new Set(data.map((item) => {
-        if(item.short !== null){
+        if(item.short !== "asg"){
             return item.short
         }
     } ))]
@@ -56,6 +56,15 @@ const Navigation = () =>{
                     )
                     }
                 })}
+            </div>
+            <div className="menu__links">
+                <Link
+                    to={`/all-star`}
+                    className="menu__link"
+                    onClick={()=> setOpenMenu(false)}
+                >
+                    All Star Game
+                </Link>
             </div>
             <div className="social__icons">
                 <Link

@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Team from './Pages/Team';
 import Error from './Pages/Error';
 import Jersey from './Pages/Jersey';
+import AllStar from './Pages/AllStar'
 import Footer from './Components/Footer';
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/jerseys/:id">
           <Jersey/>
+        </Route>
+        <Route path="/all-star">
+          <AllStar/>
         </Route>
         <Route path="/about">
           <About/>

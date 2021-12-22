@@ -9,7 +9,6 @@ function Team() {
   const { team } = useParams()
   const [filterJerseys, setFilterJerseys] = useState(false)
 
-
   return(
     <div className='team__page--cont'>
       <div className="team__name">

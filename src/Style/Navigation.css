@@ -81,6 +81,15 @@
 
 }
 
+.menu__links{
+    border-top: 1px solid var(--black);
+    padding: 1rem;
+}
+
+.menu__link{
+    color: var(--black);
+}
+
 .social__icons{
     background: var(--black);
     width: 100%;
