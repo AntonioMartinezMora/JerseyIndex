@@ -1,6 +1,7 @@
 import React,{ useState} from 'react';
 import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
+import teamsData from '../teamsData.json'
 import '../Style/App.css'; 
 import '../Style/Team.css'
 
@@ -8,9 +9,18 @@ function Team() {
   const { team } = useParams()
   const [filterJerseys, setFilterJerseys] = useState(false)
 
+
   return(
     <div className='team__page--cont'>
-      <div className="filter">
+      <div className="team__name">
+        <h2 className="title">
+          {teamsData.map((item) =>{
+            if(item.short === team){
+              return item.city
+            }
+          })}
+        </h2>
+        <div className="filter">
         <input 
           type="checkbox"  
           id="checkbox" 
@@ -21,6 +31,8 @@ function Team() {
         </label>
         <small>{filterJerseys ? "Show All Jerseys" : "Show Only City Edition"}</small>
       </div>
+      </div>
+     
       <div className={filterJerseys ? "jerseys__container hide" : "jerseys__container"}>
         {data.map((item) =>{
           if(item.short === team){

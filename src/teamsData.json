@@ -1,0 +1,152 @@
+[
+    {
+        "team": "atlanta hawks",
+        "short": "atl",
+        "city": "atlanta"
+    },
+    {
+        "team": "boston celtics",
+        "short": "bos",
+        "city": "boston"
+    },
+    {
+        "team": "brooklyn nets",
+        "short": "bro",
+        "city": "brooklyn"
+    },
+    {
+        "team": "charlotte hornets",
+        "short": "cha",
+        "city": "charlotte"
+    },
+    {
+        "team": "chicago bulls",
+        "short": "chi",
+        "city": "chicago"
+    },
+    {
+        "team": "cleveland cavaliers",
+        "short": "cle",
+        "city": "cleveland"
+    },
+    {
+        "team": "dallas mavericks",
+        "short": "dal",
+        "city": "dallas"
+    },
+    {
+        "team": "denver nuggets",
+        "short": "den",
+        "city": "denver"
+    },
+    {
+        "team": "detroit pistons",
+        "short": "det",
+        "city": "detroit"
+    },
+    {
+        "team": "golden state warriors",
+        "short": "gsw",
+        "city": "golden state"
+    },
+    {
+        "team": "houston rockets",
+        "short": "hou",
+        "city": "houston"
+    },
+    {
+        "team": "indiana pacers",
+        "short": "ind",
+        "city": "indiana"
+    },
+    {
+        "team": "los angeles clippers",
+        "short": "lac",
+        "city": "los angeles clippers"
+    },
+    {
+        "team": "los angeles lakers",
+        "short": "lal",
+        "city": "los angeles"
+    },
+    {
+        "team": "memphis grizzlies",
+        "short": "mem",
+        "city": "memphis"
+    },
+    {
+        "team": "miami heat",
+        "short": "mia",
+        "city": "miami"
+    },
+    {
+        "team": "milwakee bucks",
+        "short": "mil",
+        "city": "milwakee"
+    },
+    {
+        "team": "minnesota timberwolves",
+        "short": "min",
+        "city": "minnesota"
+    },
+    {
+        "team": "new orleans pelicans",
+        "short": "nop",
+        "city": "new orleans"
+    },
+    {
+        "team": "new york knicks",
+        "short": "nyk",
+        "city": "new york"
+    },
+    {
+        "team": "oklahoma city thunder",
+        "short": "okc",
+        "city": "oklahoma city"
+    },
+    {
+        "team": "orlando magic",
+        "short": "orl",
+        "city": "orlando"
+    },
+    {
+        "team": "philadelphia 76ers",
+        "short": "phi",
+        "city": "philadelphia"
+    },
+    {
+        "team": "phoenix suns",
+        "short": "pho",
+        "city": "phoenix"
+    },
+    {
+        "team": "porland trail blazers",
+        "short": "por",
+        "city": "portland"
+    },
+    {
+        "team": "sacramento kings",
+        "short": "sac",
+        "city": "sacramento"
+    },
+    {
+        "team": "san antonio spurs",
+        "short": "sas",
+        "city": "san antonio"
+    },
+    {
+        "team": "toronto raptors",
+        "short": "tor",
+        "city": "toronto"
+    },
+    {
+        "team": "utah jazz",
+        "short": "uta",
+        "city": "utah"
+    },
+    {
+        "team": "washington wizards",
+        "short": "was",
+        "city": "washington"
+    }
+]

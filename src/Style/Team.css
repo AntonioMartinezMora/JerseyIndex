@@ -2,6 +2,14 @@
     margin-top: 11vh;
     min-height: 80vh;
 }
+
+.team__name{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: solid 1px hotpink; */
+}
+
 /* Filter Button */
 .filter{
     display: flex;
