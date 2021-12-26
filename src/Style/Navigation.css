@@ -19,8 +19,13 @@
 }
 
 .nav__bar .logo{
-    font-size: 2rem;
     color: var(--dark);
+}
+
+.nav__bar img{
+    height: 11.5vh;
+    border-bottom: none;
+    margin-bottom: 0.2rem;
 }
 
 

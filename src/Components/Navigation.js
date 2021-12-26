@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import data from '../data.json'
 import {Link} from 'react-router-dom'
 import '../Style/Navigation.css';
+import logo from '../JerseySocietyLogo.png';
 // Import icons
 import { FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -23,7 +24,7 @@ const Navigation = () =>{
                 to="/"
                 className="logo"
             >
-                BB Jerseys
+                <img src={logo}/>
             </Link>
             <div className="nav__icons">
                 <div 

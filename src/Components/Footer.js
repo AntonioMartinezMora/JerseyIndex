@@ -15,7 +15,7 @@ const Footer = () =>{
                     to={'#'}
                     className="footer__link"
                 >
-                    About Us
+                    About
                 </Link>
                 <Link
                     to={'#'}
