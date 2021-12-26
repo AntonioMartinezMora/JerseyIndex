@@ -2,7 +2,6 @@ import React,{useState} from "react";
 import data from '../data.json'
 import {Link} from 'react-router-dom'
 import '../Style/Navigation.css';
-import logo from '../JerseySocietyLogo.png';
 // Import icons
 import { FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -24,7 +23,7 @@ const Navigation = () =>{
                 to="/"
                 className="logo"
             >
-                <img src={logo}/>
+                <img src="https://media.publit.io/file/w_1280/Resour/JerseySocietyLogo-1.png"/>
             </Link>
             <div className="nav__icons">
                 <div 
