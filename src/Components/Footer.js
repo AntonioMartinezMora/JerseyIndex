@@ -7,12 +7,12 @@ const Footer = () =>{
 
     return <footer>
         <div>
-        &copy; {year} BBallJersys.com
+        &copy; {year} JerseySociety.co 
         </div>
         <div className="footer__info">
             <div className="footer__col">
                 <Link
-                    to={'#'}
+                    to={"/about"}
                     className="footer__link"
                 >
                     About

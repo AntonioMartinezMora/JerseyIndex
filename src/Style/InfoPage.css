@@ -1,0 +1,16 @@
+.info__page{
+    margin-top: 12vh;
+    min-height: 80vh;
+    width: 100%;
+    max-width: 800px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.info__page p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

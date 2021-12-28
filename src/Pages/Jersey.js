@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import {useParams} from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import data from '../data.json'
 import '../Style/App.css'; 
 import '../Style/Jersey.css'; 
@@ -61,6 +61,17 @@ function Jersey() {
                 Find this jersey
               </a>
             </button>
+          </div>
+
+          <div className="sidebar">
+            <Link
+              to={"/all-star"}
+              key={999}
+              className="asg__link"
+            >
+              <img src="https://media.publit.io/file/Resour/asg_small.png"/>
+              <h4>all star game jerseys</h4>
+            </Link>
           </div>
             
         </div>
