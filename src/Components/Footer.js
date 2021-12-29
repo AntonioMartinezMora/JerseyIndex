@@ -18,7 +18,7 @@ const Footer = () =>{
                     About
                 </Link>
                 <Link
-                    to={'#'}
+                    to={"/terms"}
                     className="footer__link"
                 >
                     Terms

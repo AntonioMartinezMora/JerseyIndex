@@ -8,3 +8,10 @@
     height: 500px;
     overflow: hidden;
 }
+
+@media(max-width:550px){
+    .popular__cont .jerseys__container{
+        height: 515px;
+        overflow: hidden;
+    }
+}

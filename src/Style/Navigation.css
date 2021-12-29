@@ -14,13 +14,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding-right: 2rem;
     margin: auto;
 }
 
-.nav__bar .logo{
-    color: var(--dark);
-}
+/* .nav__bar .logo{
+    border: solid 1px pink;
+} */
 
 .nav__bar img{
     height: 11vh;
