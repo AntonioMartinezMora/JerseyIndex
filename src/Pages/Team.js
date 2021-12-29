@@ -92,5 +92,5 @@ function Team() {
   
 } 
 
-export default React.memo(Team);
+export default Team;
 

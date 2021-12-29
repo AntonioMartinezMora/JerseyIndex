@@ -6,6 +6,11 @@ import '../Style/App.css'
 import '../Style/Popular.css';
 
 function Popular(){
+    const handleClick = () =>{
+      window.scrollTo(0, 0)
+      console.log('jeje')
+    }
+
   const popularJerseys = [...new Set(data.map((item)=>{
     if(item.favorite === 'yes'){
       return item
@@ -32,6 +37,7 @@ function Popular(){
                 to={`/jerseys/${id}`}
                 key={index}
                 className="jersey__link"
+                onClick={handleClick}
               >
                 <div className="jersey__link--info">
                   <img src={image} />

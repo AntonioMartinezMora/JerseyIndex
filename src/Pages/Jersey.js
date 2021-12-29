@@ -12,8 +12,14 @@ function Jersey() {
   const {setOpenPageMenu, shortTeams} = useGlobalContext()
 
   useEffect(() =>{
-    setOpenPageMenu(false)
+    handleClick()
   },[])
+
+    const handleClick = () =>{
+      setOpenPageMenu(false)
+      window.scrollTo(0, 0)
+      console.log('jeje')
+    }
 
   // console.log(id)
 
