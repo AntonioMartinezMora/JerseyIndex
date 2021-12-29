@@ -11,13 +11,6 @@ function HeroImage() {
             <div className="hero__content">
                 <h1>Every nba jersey from nike since 2017</h1>
                 <p>Browse all the NBA jerseys for every team in the league since 2017 when Nike became the apparel provider for the NBA.</p>
-                {/* <button 
-                    className="check__btn"
-                    // onClick={() => setOpenPageMenu(!openPageMenu)}
-                    onClick={()=> console.log('jeje')}
-                >
-                    Check a team
-                </button> */}
             </div>
         </div>
     )

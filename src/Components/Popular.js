@@ -8,7 +8,6 @@ import '../Style/Popular.css';
 function Popular(){
     const handleClick = () =>{
       window.scrollTo(0, 0)
-      console.log('jeje')
     }
 
   const popularJerseys = [...new Set(data.map((item)=>{

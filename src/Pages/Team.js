@@ -28,7 +28,7 @@ function Team() {
         <label htmlFor="checkbox" className={filterJerseys ? "label active" : "label"}>
           <div className="filtered"></div>
         </label>
-        <small>{filterJerseys ? "Show All Jerseys" : "Show Only City Edition"}</small>
+        <small>{filterJerseys ? "Show All Jerseys" : "Show City Edition"}</small>
       </div>
       </div>
      
