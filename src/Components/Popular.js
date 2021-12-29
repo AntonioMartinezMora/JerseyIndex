@@ -16,7 +16,7 @@ function Popular(){
         <h2 className="title">
             popular jerseys
         </h2>
-        <div className="jerseys__container">
+        <div className="popu__jerseys--cont">
             {popularJerseys.slice(1).sort((a,b) => 0.5 - Math.random()).map((jersey) => {
                 const {
                     id,
