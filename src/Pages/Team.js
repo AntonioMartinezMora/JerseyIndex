@@ -20,16 +20,16 @@ function Team() {
           })}
         </h2>
         <div className="filter">
-        <input 
-          type="checkbox"  
-          id="checkbox" 
-          onChange={() => setFilterJerseys(!filterJerseys)}
-        />
-        <label htmlFor="checkbox" className={filterJerseys ? "label active" : "label"}>
-          <div className="filtered"></div>
-        </label>
-        <small>{filterJerseys ? "Show All Jerseys" : "Show City Edition"}</small>
-      </div>
+          <input 
+            type="checkbox"  
+            id="checkbox" 
+            onChange={() => setFilterJerseys(!filterJerseys)}
+          />
+          <label htmlFor="checkbox" className={filterJerseys ? "label active" : "label"}>
+            <div className="filtered"></div>
+          </label>
+          <small>{filterJerseys ? "Show All Jerseys" : "Show City Edition"}</small>
+        </div>
       </div>
      
       <div className={filterJerseys ? "jerseys__container hide" : "jerseys__container"}>

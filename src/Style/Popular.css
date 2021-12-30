@@ -1,3 +1,7 @@
+.popular__cont{
+    padding-top: 1rem;
+}
+
 .popu__jerseys--cont{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -6,7 +10,7 @@
     flex-wrap: wrap;
     margin: auto;
     padding: 0 1rem;
-    height: 270px;
+    height: 265px;
     overflow: hidden;
 }
 

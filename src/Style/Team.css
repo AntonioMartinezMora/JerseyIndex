@@ -109,6 +109,15 @@ img{
 }
 
 @media(max-width:550px){
+    .team__name{
+        display: flex;
+        flex-direction: column;
+        /* justify-content:  */
+        align-items: center;
+        padding-top: 1rem;
+        /* border: solid 1px hotpink; */
+    }
+
     .jerseys__container{
         grid-template-columns: repeat(2, 1fr);
     }
