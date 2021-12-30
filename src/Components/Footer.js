@@ -25,18 +25,20 @@ const Footer = () =>{
                 </Link>
             </div>
             <div className="footer__col">
-                <Link
-                    to={'#'}
+                <a 
+                    href={"https://twitter.com/societyjersey"}
+                    target="_blank"
                     className="footer__link"
                 >
                     Twitter
-                </Link>
-                <Link
-                    to={'#'}
+                </a>
+                <a 
+                    href={"https://www.instagram.com/societyjersey/"}
+                    target="_blank"
                     className="footer__link"
                 >
                     Instagram
-                </Link>
+                </a>
             </div>
         </div>
     </footer>

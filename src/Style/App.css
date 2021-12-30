@@ -43,13 +43,10 @@ a{
     border: none;
     outline: none;
     background-color: transparent;
-    border: solid 2px var(--black);
+    border-bottom: solid 2px var(--black);
     color: var(--black);
-    padding: 10px 20px;
+    padding: 0 10px;
     text-transform: uppercase;
-    border-radius: 5px;
     font-size: 1rem;
-    border-bottom-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
