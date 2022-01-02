@@ -18,7 +18,6 @@ function Jersey() {
     const handleClick = () =>{
       setOpenPageMenu(false)
       window.scrollTo(0, 0)
-      console.log('jeje')
     }
 
   // console.log(id)
