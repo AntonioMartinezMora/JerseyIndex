@@ -67,18 +67,20 @@ const Navigation = () =>{
                 </Link>
             </div>
             <div className="social__icons">
-                <Link
-                    to={"#"}
+            <a 
+                    href={"https://twitter.com/societyjersey"}
+                    target="_blank"
                     className="social__icon"
                 >
-                    <FaTwitter/>
-                </Link>
-                <Link
-                    to={"#"}
+                    <FaTwitter />
+                </a>
+                <a 
+                    href={"https://www.instagram.com/societyjersey/"}
+                    target="_blank"
                     className="social__icon"
                 >
-                    <FaInstagram/>
-                </Link>
+                    <FaInstagram />
+                </a>
             </div>
         </div>
     </div>
